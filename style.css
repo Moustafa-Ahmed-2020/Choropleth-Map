@@ -1,0 +1,56 @@
+.fill {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.county {
+  opacity: 0.8;
+  stroke: grey;
+  stroke-opacity: 0.2;
+}
+
+.county:hover {
+  opacity: 1;
+  stroke: black;
+  stroke-opacity: 1;
+}
+
+.title {
+  font-size: 30px;
+  order: 2;
+  margin: 5px;
+}
+
+.description {
+  font-size: 20px;
+  order: 1;
+  margin: 5px;
+}
+
+.tooltip {
+  padding: 0.25rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #001b4d;
+  color: white;
+  height: max-content;
+  width: max-content;
+}
+
+.legend {
+  position: absolute;
+  left: 1800px;
+  top: 200px;
+}
+
+.states {
+  fill: none;
+  stroke: white;
+}
